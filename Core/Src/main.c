@@ -294,7 +294,7 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart) {
                 target_yaw = rx_buffer[1];
                 target_pitch = rx_buffer[2];
                 // 也可以在函数外定义全局变量来保存 yaw 和 pitch
-                // 如果你想，还可以新建一个全局变量来存放情绪 ID
+
                 // current_emotion = rx_buffer[3]; 
             }
         }
